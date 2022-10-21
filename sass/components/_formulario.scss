@@ -24,28 +24,11 @@
 .formulario__botao {
     background-color: #fff;
     border-radius: 300px;
-    border: 3px solid #f00;
-    color: #f00;
+    border: 3px solid $cor-principal;
+    color: $cor-principal;
     padding: 5px 20px;
     cursor: pointer;
     display: block;
     margin: 0 auto;
     font-weight: bold;
-}
-
-.mapa {
-    background: #f00;
-    height: 0;
-    padding-bottom: 100%;
-    position: relative;
-    overflow: hidden;
-    margin: 0 -15px -25px -15px;
-}
-
-.mapa iframe {
-    width: 100% !important;
-    height: 100% !important;
-    position: absolute;
-    top: 0;
-    left: 0;
 }
