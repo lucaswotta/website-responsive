@@ -332,7 +332,7 @@ body {
   text-align: center; }
 
 .depoimentos {
-  background-color: #dd3f3f;
+  background-color: #f44242;
   background-image: url("../img/cabecalho-pagina-bg.jpg");
   background-attachment: fixed;
   color: #fff;
@@ -386,8 +386,8 @@ body {
 .formulario__botao {
   background-color: #fff;
   border-radius: 300px;
-  border: 3px solid #f00;
-  color: #f00;
+  border: 3px solid #f44242;
+  color: #f44242;
   padding: 5px 20px;
   cursor: pointer;
   display: block;
@@ -407,7 +407,7 @@ body {
   background-image: url("../img/logotipo-branco.png"); }
 
 .mapa {
-  background: #f00;
+  background: #f44242;
   height: 0;
   padding-bottom: 100%;
   position: relative;
@@ -456,7 +456,7 @@ body {
   color: #f44242; }
 
 .pagina-cabecalho {
-  background-color: #dd3f3f;
+  background-color: #f44242;
   background-image: url("../img/cabecalho-pagina-bg.jpg");
   background-attachment: fixed;
   color: #fff;
@@ -499,7 +499,7 @@ body {
   margin-bottom: 50px; }
 
 .servicos__texto {
-  color: #585858; }
+  color: #3a3a3a; }
 
 .cabecalho {
   background: #fff;
@@ -570,7 +570,7 @@ body {
   display: block;
   width: 50px;
   height: 3px;
-  background-color: #f00;
+  background-color: #f44242;
   margin: 0 auto;
   margin-top: 15px; }
 
