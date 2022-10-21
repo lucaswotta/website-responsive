@@ -2,15 +2,12 @@
     padding: 15px;
     padding-top: 25px;
     padding-bottom: 25px;
-}
 
-.pagina-conteudo p {
-    color: $cor-leitura;
-    line-height: 22px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
+    p {
+        color: $cor-leitura;
+        line-height: 22px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
 
-.text-center {
-    text-align: center;
 }

@@ -13,10 +13,10 @@
     position: absolute;
     top: 15px;
     right: 15px;
-}
 
-.menu-principal__btn--fechar {
-    background-position: -48px 7px;
+    &--fechar {
+        background-position: -48px 7px;
+    }
 }
 
 .menu-principal__lista {
@@ -31,8 +31,8 @@
     margin-bottom: 10px;
     display: block;
     font-size: 18px;
-}
 
-.menu-principal__item--atual {
-    color: $cor-principal;
+    &--atual {
+        color: $cor-principal;
+    }
 }
