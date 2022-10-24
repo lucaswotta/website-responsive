@@ -328,9 +328,6 @@ img {
 body {
   font-family: "Source Sans Pro"; }
 
-.text-center {
-  text-align: center; }
-
 .depoimentos {
   background-color: #f44242;
   background-image: url("../img/cabecalho-pagina-bg.jpg");
@@ -491,12 +488,17 @@ body {
 .pagina-conteudo {
   padding: 15px;
   padding-top: 25px;
-  padding-bottom: 25px; }
+  padding-bottom: 25px;
+  overflow: auto; }
   .pagina-conteudo p {
     color: #3a3a3a;
     line-height: 22px;
     margin-top: 20px;
     margin-bottom: 20px; }
+  @media (min-width: 768px) {
+    .pagina-conteudo {
+      padding-top: 150px;
+      padding-bottom: 150px; } }
 
 .servicos {
   padding: 30px 0;
@@ -549,44 +551,69 @@ body {
 
 .rodape {
   color: #fff; }
+  .rodape .logo {
+    margin-bottom: 20px; }
+  .rodape p {
+    text-align: justify; }
+  .rodape__top {
+    background-color: #272525;
+    background-image: url("../img/rodape-bg.jpg");
+    background-size: cover;
+    padding: 15px;
+    overflow: auto; }
+  .rodape__bottom {
+    background-color: #000;
+    text-align: center;
+    padding: 15px; }
+  .rodape__coluna {
+    margin-top: 40px;
+    margin-bottom: 40px; }
+  .rodape__titulo {
+    border-bottom: 1px solid #fff;
+    padding: 0 10px 10px 10px;
+    font-size: 18px; }
+  .rodape__lista-links {
+    padding: 0;
+    list-style: none; }
+  .rodape__lista-links__item {
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: block; }
+  .rodape__lista-links__item::before {
+    content: ">";
+    margin-right: 8px;
+    color: #f44242; }
+  @media (min-width: 768px) {
+    .rodape__top {
+      background-image: url("../img/rodape-bg-md.jpg"); }
+    .rodape__coluna {
+      float: left;
+      width: 33.333%;
+      padding: 0 15px; } }
+  @media (min-width: 1200px) {
+    .rodape__top {
+      background-image: url("../img/rodape-bg-xl.jpg"); } }
 
-.rodape .logo {
-  margin-bottom: 20px; }
+.text-center {
+  text-align: center; }
 
-.rodape__linha-1 {
-  background-color: #272525;
-  background-image: url("../img/rodape-bg.jpg");
-  background-size: cover;
-  padding: 15px; }
+.text-justify {
+  text-align: justify; }
 
-.rodape__linha-2 {
-  background-color: #000;
-  text-align: center;
-  padding: 15px; }
+.img-left {
+  float: left; }
 
-.rodape__coluna {
-  margin-top: 40px;
-  margin-bottom: 40px; }
+@media (max-width: 768px) {
+  .img-left-md {
+    display: block;
+    margin: 0 auto;
+    width: 100%; } }
 
-.rodape__titulo {
-  border-bottom: 1px solid #fff;
-  padding: 0 10px 10px 10px;
-  font-size: 18px; }
-
-.rodape__lista-links {
-  padding: 0;
-  list-style: none; }
-
-.rodape__lista-links__item {
-  color: #fff;
-  text-decoration: none;
-  margin-bottom: 10px;
-  display: block; }
-
-.rodape__lista-links__item::before {
-  content: ">";
-  margin-right: 8px;
-  color: #f44242; }
+@media (min-width: 768px) {
+  .img-left-md {
+    float: left;
+    margin: 5px 10px 5px 0; } }
 
 .cabecalho-home {
   background: url("../img/cabecalho-home-bg.jpg") #000 no-repeat;
@@ -664,3 +691,8 @@ body {
   margin-left: 15px;
   border-left: 1px solid #000;
   padding-left: 10px; }
+
+@media (min-width: 768px) {
+  .pagina-sobre .pagina-conteudo {
+    padding-right: 150px;
+    padding-left: 150px; } }
