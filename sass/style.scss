@@ -1,13 +1,19 @@
 // Abstracts
-@import 'abstracts/_breakpoints';
 @import 'abstracts/_cores';
+@import 'abstracts/_breakpoints';
 
 // Base
 @import 'base/_normalize';
 @import 'base/_fontes';
 @import 'base/_meu-reset';
 
-// Components
+// Layout
+@import 'layout/_container';
+@import 'layout/_cabecalho';
+@import 'layout/_rodape';
+@import 'layout/_alinhamento-textos';
+@import 'layout/_alinhamento-img';
+// Componentes
 @import 'components/_depoimentos';
 @import 'components/_formulario';
 @import 'components/_logo';
@@ -17,15 +23,13 @@
 @import 'components/_pagina-conteudo';
 @import 'components/_servicos';
 
-// Layout
-@import 'layout/_container';
-@import 'layout/_cabecalho';
-@import 'layout/_rodape';
-@import 'layout/_alinhamento-texto';
-@import 'layout/_alinhamento-img';
-
 // Páginas
 @import 'pages/_contato';
 @import 'pages/_pagina-inicial';
 @import 'pages/_portfolio';
 @import 'pages/_sobre-nos';
+
+// Vendor
+@import 'vendors/_slick';
+@import 'vendors/_slick-theme';
+@import 'vendors/_jquery.fancybox.min'

@@ -1,20 +1,17 @@
-.container {
+.container{
     margin: 0 auto;
-    padding: 0 15px;
-
-    @media(min-width: $breakpoint-sm) {
+    padding-left: 15px;
+    padding-right: 15px;
+    @media(min-width: $breakpoint-sm){
         width: 540px;
     }
-
-    @media(min-width: $breakpoint-md) {
+    @media(min-width: $breakpoint-md){
         width: 720px;
     }
-
-    @media(min-width: $breakpoint-lg) {
+    @media(min-width: $breakpoint-lg){
         width: 960px;
     }
-
-    @media(min-width: $breakpoint-xl) {
+    @media(min-width: $breakpoint-xl){
         width: 1140px;
     }
 }
