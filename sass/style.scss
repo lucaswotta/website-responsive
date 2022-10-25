@@ -1,19 +1,20 @@
-// Abstracts
+//abstracts
 @import 'abstracts/_cores';
 @import 'abstracts/_breakpoints';
 
-// Base
+//base
 @import 'base/_normalize';
 @import 'base/_fontes';
 @import 'base/_meu-reset';
 
-// Layout
+//layout
 @import 'layout/_container';
 @import 'layout/_cabecalho';
 @import 'layout/_rodape';
-@import 'layout/_alinhamento-textos';
+@import 'layout/_alinhamento-texto';
 @import 'layout/_alinhamento-img';
-// Componentes
+
+//componentes
 @import 'components/_depoimentos';
 @import 'components/_formulario';
 @import 'components/_logo';
@@ -23,13 +24,8 @@
 @import 'components/_pagina-conteudo';
 @import 'components/_servicos';
 
-// Páginas
+//paginas
 @import 'pages/_contato';
 @import 'pages/_pagina-inicial';
-@import 'pages/_portfolio';
+@import 'pages/_portifolio';
 @import 'pages/_sobre-nos';
-
-// Vendor
-@import 'vendors/_slick';
-@import 'vendors/_slick-theme';
-@import 'vendors/_jquery.fancybox.min'

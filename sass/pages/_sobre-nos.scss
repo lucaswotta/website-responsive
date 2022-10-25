@@ -1,8 +1,21 @@
-.pagina-sobre{
-    .pagina-conteudo{
-        @media(min-width: $breakpoint-md){
-            padding-right: 150px;
+.pagina-sobre {
+    p {
+        text-align: justify;
+    }
+
+    .pagina-conteudo {
+        @media (min-width: $breakpoint-md) {
             padding-left: 150px;
+            padding-right: 150px;
         }
     }
+
+    @media (max-width: $breakpoint-md) {
+        img {
+            display: block;
+            margin: 0 auto;
+            width: 100%;
+        }
+    }
+
 }
