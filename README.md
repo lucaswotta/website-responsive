@@ -1,9 +1,11 @@
 <div align="center">
 
-# Website Responsive - Mobile First
+# Website Responsive
 
-Site estilizado usando sass, com o foco inicial na responsividade em "mobile first".
+Website styled using sass, with an initial focus on mobile-first responsive.
 
-<img src="./img/model.gif">
+<img src="./img/model.png">
+
+#
 
 <a href="https://lucaswotta.github.io/website-responsive/">Live Demo</a>
